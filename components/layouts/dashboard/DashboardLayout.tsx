@@ -1,13 +1,13 @@
 import React from "react";
 import Head from "next/head";
-import Header from "../sections/Header";
-import Footer from "../sections/Footer";
+import Header from "../../../sections/Header";
+import Footer from "../../../sections/Footer";
 
 interface Props {
   children: React.ReactNode;
 }
 
-const Layout: React.FC<Props> = ({ children }) => {
+const DashboardLayout: React.FC<Props> = ({ children }) => {
   return (
     <>
       <Head>
@@ -26,4 +26,4 @@ const Layout: React.FC<Props> = ({ children }) => {
   );
 };
 
-export default Layout;
+export default DashboardLayout;
